@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #0D242E;
+  height: 100%;
+  margin: 0;
+  background-color: #FAFAFA;
+}
+
+a {
+  color: #1076B5;
+  text-decoration: underline;
+}
+
+input, label {
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+input {
+  padding: 10px;
+  border: 0.5px solid #0D242E;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #08C642;
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  opacity: .6;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.left-container {
+  padding: 0 10rem;
+}
+
+.right-container {
+  background-image: url(assets/img/books.png);
+  background-size: cover;
+  flex: 1;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+#logo {
+  max-width: 370px;
+}
+
+#welcome-back {
+  margin: 3rem 0 2rem 0;
+}
+
+#create-profile {
+  margin: 3rem 0 3rem 0;
+}
+
+#lib-logo{
+  max-width: 136px;
+}
+
+.password-field {
+  margin-top: 2rem;
+}
+
+.repeat-password-field{
+  margin-top: 2rem;
+}
+
+nav {
+  height: 64px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.navbar {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.search-container h3 {
+  float: left;
+  margin-right: 1rem;
+}
+
+.books-container {
+  background-color: #fff;
+  margin: 3rem 2.5rem;
+  box-shadow: 0px 5px 15px #00347026;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.book {
+  width: 50%;
+  float: left;
+  border: none;
+  justify-content: space-between;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+#h3-search-button {
+  margin-left: 2em;
+}
+
+#search-button{
+  width: 300px;
+}
+
+.book-image img {
+  max-width: 125px;
+  height: 177px;
+}
+
+.books-list {
+  overflow: hidden;
+  width: 100%;
+}
+
+.book-container {
+  display: flex;
+  margin: 1.5rem;
+  box-shadow: 0px 3px 6px #00000017;
+}
+
+.book-content{
+  width: 100%;
+  margin: 0 2rem;
+}
+
+#button-book{
+  width: 34px;
+  height: 100%;
+}
+
+
+#back-button{
+  width: 60px;
+}
+
+.book-info-container{
+  display: flex;
+}
+
+.info-left-container{
+  width: 35%;
+}
+
+.info-left-container img{
+  width: 100%;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.info-right-container{
+  width: 50%;
+  float: left;
+  margin-top: 10em;
+}
+
+.book-info-title{
+  background: #08C642;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+
+.book-info-title h2 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+
+.book-info-content{
+  margin-left: 2em;
+}
+
+.book-info-description{
+  margin-left: 2em;
+}
